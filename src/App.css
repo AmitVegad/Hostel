@@ -1,5 +1,7 @@
+
 .App {
   text-align: center;
+  margin-top:200px;  
 }
 
 .App-logo {
@@ -35,4 +37,188 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/* chosee girl ot boy */
+.main{
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.app1 {
+  width: 250px;
+  height: auto;
+  text-align: center;
+  background-color: lightskyblue;
+  margin: 50px;
+  padding: 30px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.app2 {
+  width: 250px;
+  height: auto;
+  text-align: center;
+  background-color: lightpink;
+  margin: 50px;
+  padding: 30px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.icon{
+    width: 100px;
+    height: 100px;
+}
+
+.headingTitle-home{
+  text-align: center;
+  margin-top: 130px;  
+}
+.headingTitle-hostel{
+  text-align: center;
+  margin-top: 150px;  
+}
+
+
+/* Choose hostel */
+
+.hostel-main{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.matrix {
+  margin: 0 auto;
+  padding: 5px;
+}
+.btn{
+  width: 70px;
+  height: 70px;
+  background-color: dimgrey;
+  margin: 13px;
+  color: #fff;
+  border-radius: 10px;
+  font-weight: bolder;
+  font-size: 25px;
+  cursor: pointer;
+  border: none;
+}
+
+.Booked-main{
+  display: flex;
+  height:100vh;
+  width: 100%;
+  justify-content:center; 
+  align-items: center;
+}
+.con{
+  border-radius: 20px;
+  border: 1px solid black;
+  padding:30px;
+}
+
+.style{
+  color: red;
+}
+
+
+/* Room */
+.room-main{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sel{
+  border-radius: 30px;
+  padding: 2px 15px 2px 15px;
+  background-color: whitesmoke;
+}
+
+.divbtn{
+  border: 1.5px solid grey;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.btn-room{
+  width: 45px;
+  height: 55px;
+  background-color: lightgreen;
+  margin: 7px;
+  color: #000;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+.btn-room-gray{
+  width: 45px;
+  height: 55px;
+  background-color: grey;
+  margin: 7px;
+  color: #000;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.bookbtn{
+  width: 150px;
+  border-radius:20px;
+  padding: 10px;
+  margin-top:10px;
+  border: none;
+  background-color: #008CBA;
+  color: white;
+  cursor: pointer;
+}
+
+.modal{
+  display: inline-block;
+  position: relative;
+  top: -25px;
+  cursor: pointer;
+}
+
+.modal-heading{
+  display: inline-block;
+  margin-left: 100px;
+  position: relative;
+  top: -25px;
+}
+
+
+.navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid #b0aeae;
+  background-color: #e2e1e1;
+  display:flex;
+  flex-direction: row;
+}
+
+.signout{
+  margin:10px 15px 0 auto !important;
+  height: 30px;
+}
+
+.navbar-header{
+  margin:10px auto 0 15px !important;
+  height: 30px;
+  color:#858383
 }
